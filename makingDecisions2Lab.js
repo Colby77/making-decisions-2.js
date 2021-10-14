@@ -8,8 +8,8 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-var firstItem = arr[0];
-console.log(firstItem);
+// var firstItem = arr[0];
+// console.log(firstItem);
 
 
 ////////// PROBLEM 2 //////////
@@ -19,9 +19,9 @@ console.log(firstItem);
 
 //Code Here
 
-lastItemRemoved = arr.pop();
-console.log(lastItemRemoved);
-console.log(arr);
+// lastItemRemoved = arr.pop();
+// console.log(lastItemRemoved);
+// console.log(arr);
 
 ////////// PROBLEM 3 //////////
 
@@ -35,7 +35,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-
+for (i = 0; i <= family.length-1; i++){
+  console.log(family[i]);
+}
 
 ////////// PROBLEM 4 //////////
 
